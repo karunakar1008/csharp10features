@@ -8,7 +8,7 @@ namespace Feature8
 {
     public record Rectangle(int Height,int Width)
     {
-        public sealed  override string ToString()
+        public  override string ToString()
         {
             return $"height is: {Height}; width is: {Width}";
         }

@@ -1,0 +1,21 @@
+﻿GET https://localhost:7178/api/Employees
+###
+GET https://localhost:7178/api/Employees/20
+
+###
+POST https://localhost:7178/api/Employees
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"karunakar",
+    "address":"bangalore"
+}
+###
+PUT https://localhost:7178/api/Employees/1
+Content-Type: application/json
+
+"kiran"
+
+###
+DELETE https://localhost:7178/api/Employees/10

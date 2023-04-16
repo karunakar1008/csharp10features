@@ -1,0 +1,27 @@
+﻿#Test Employees controller
+@id=20
+@baseAddress=https://localhost:7178
+#
+
+GET {{baseAddress}}/api/Employees
+
+###
+GET {{baseAddress}}/api/Employees/{{id}}
+
+###
+POST {{baseAddress}}/api/Employees
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"karunakar",
+    "address":"bangalore"
+}
+###
+PUT {{baseAddress}}/api/Employees/{{id}}
+Content-Type: application/json
+
+"kiran"
+
+###
+DELETE {{baseAddress}}/api/Employees/{{id}}
