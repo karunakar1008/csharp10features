@@ -2,10 +2,10 @@
 {
     public static class ApiRoutes
     {
-        private const string ApiBase = "/api";
-        private const string GetById = $"{ApiBase}/id:{{guid}}";
-        private const string GetByName = $"{ApiBase}/name:{{guid}}";//String interpolation
-        private const string GetAll = ApiBase;
+        public const string ApiBase = "http://localhost/api/employees";
+        public const string GetById = $"{ApiBase}/id:{{guid}}";
+        public const string GetByName = $"{ApiBase}/name:{{guid}}";//String interpolation
+        public const string GetAll = ApiBase;
 
         public static void ChangeContsant()
         {

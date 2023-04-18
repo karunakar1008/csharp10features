@@ -1,8 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-//Structs improvements
+﻿//Structs improvements
 using Feature6;
 
-Console.WriteLine("Hello, World!");
-var rectangle=new Rectangle(10,20);
+Console.WriteLine("Paramter less struct is not available in c# 9");
+Console.WriteLine("With operator in c# 10");
+var rectangle=new Rectangle();
 var newRectangle = rectangle with { Width = 30 }; //with operator
+Console.WriteLine(newRectangle.Width); 
