@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Feature4
+﻿namespace Feature4
 {
-    public class Program
+    public class LambdaImprovements
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var helloWorld = () => "Hello Karuna";
-            var text = string? () => null;
+            var text = string? () => "kk";
+            Console.WriteLine(text);
+            Console.ReadKey();
         }
     }
 }

@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Feature9
+namespace Feature9.example2
 {
     public class Demo
     {
         public static void Main()
         {
-            Person p = new Person() { 
-                Addresses = new List<PersonAddres>{ new PersonAddres { Permanent = "#1,bangalore" } },
-            Relatives=new List<Relative> { new Relative { RelativeId = 1,Relation ="Brother",Name="Sreenu"} }
+            Person p = new Person()
+            {
+                Addresses = new List<PersonAddres> { new PersonAddres { Permanent = "#1,bangalore" } },
+                Relatives = new List<Relative> { new Relative { RelativeId = 1, Relation = "Brother", Name = "Sreenu" } }
             };
             DisplayInfo(p);
             Console.ReadLine();

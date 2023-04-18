@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Feature9
+namespace Feature9.example2
 {
     public class Person
     {

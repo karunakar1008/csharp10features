@@ -1,5 +1,5 @@
 ﻿namespace Feature2;
-internal class Class3
+internal class Program
 {
     public void DisplayMessage()
     {

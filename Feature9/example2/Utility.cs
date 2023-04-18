@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 using System.Runtime.CompilerServices;
 
-namespace Feature9
+namespace Feature9.example2
 {
     internal static class Utility
     {

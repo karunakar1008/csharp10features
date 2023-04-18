@@ -1,15 +1,14 @@
-﻿
-//Extended property pattern
+﻿Console.WriteLine("Extended property pattern");
 
-using Feature7;
+var salary = new EmployeeSalary(1, 1000);
+var employee = new Employee(1, "kk", salary);
 
-Console.WriteLine("Hello, World!");
-
-var rectangleInside = new Rectangle(10, 20);
-var rectangleOutside = new Rectangle(20, 40, rectangleInside);
-
-if (rectangleOutside is { rectangle: { height: >= 10 } })
+if (employee is { EmpSalary: { Salary: <= 1000 } }) //c# 9.0
 {
-    Console.WriteLine("Outer rectangle is begger than inner rectangle");
+    Console.WriteLine("Employee is not costly");
 }
 
+if (employee is { EmpSalary.Salary: >= 1000 }) //c# 10.0 Improvement
+{
+    Console.WriteLine("Employee is costly");
+}

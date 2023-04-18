@@ -3,8 +3,8 @@ public struct Rectangle
 {
     public Rectangle() //Paramter less struct is not available in c# 9
     {
-        Height = 0;
-        Width = 0;
+        Height = 100;
+        Width = 200;
     }
     public Rectangle(int hieght, int width)
     {

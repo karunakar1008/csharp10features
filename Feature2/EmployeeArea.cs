@@ -1,20 +1,20 @@
 ﻿namespace Feature2;
-
-public class Employee
+//Demo : File scoped name spaces
+internal class Employee
 {
     public int EmployeeId { get; set; }
 
 }
 
-public class EmployeeSalary
+internal class EmployeeSalary
 {
     public decimal Salary { get; set; }
 }
 
-public class EmployeeAddress
+internal class EmployeeAddress
 {
     public string PermanentAddress { get; set; }
 }
 
 
-//Demo : File scoped name spaces
+
