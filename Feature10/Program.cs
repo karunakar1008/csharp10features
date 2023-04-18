@@ -7,9 +7,9 @@ public class Program
     public static void Main(string[] args)
     {
         Console.WriteLine("Improved definite assignment");
-        Console.WriteLine("warnings for definite assignment and null-state analysis are more accurate");
+        Console.WriteLine("These examples generated warnings in previous versions of C#, but don't in C# 10");
         var c = new Employee();
-        string? representation = "N/A";
+        string representation = "N/A";
         if ((c != null && c.GetDependentValue(out object obj)) == true)
         {
             representation = obj.ToString(); // undesired error
