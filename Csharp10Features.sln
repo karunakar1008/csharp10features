@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature3", "Feature3\Featur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet3", "dotnet3\dotnet3.csproj", "{2DD03246-7C66-4658-9D28-454450793593}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature4", "Feature4\Feature4.csproj", "{0D70FD99-D729-49A3-A52F-2CA2F5923538}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature5", "Feature5\Feature5.csproj", "{1385DAF2-BA90-4128-8C68-D2FCB4536561}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature6", "Feature6\Feature6.csproj", "{5C0F5590-B7EF-4BCB-99E9-9F6015A9E9E2}"
@@ -21,24 +19,24 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature7", "Feature7\Featur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "core3consoleapp", "core3consoleapp\core3consoleapp.csproj", "{A9FA1406-1608-459F-BDEA-3009EE0FB4D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature8", "Feature8\Feature8.csproj", "{5112655E-A971-4C85-A3C7-5AF681362225}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature8", "Feature8\Feature8.csproj", "{5112655E-A971-4C85-A3C7-5AF681362225}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature9", "Feature9\Feature9.csproj", "{77111CC9-EC6C-4C94-9FC9-29682DA4F24E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Feature9", "Feature9\Feature9.csproj", "{77111CC9-EC6C-4C94-9FC9-29682DA4F24E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF066B00-0D06-4A21-8AF2-D82D88855A0A}"
 	ProjectSection(SolutionItems) = preProject
 		References.txt = References.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApp", "RestApp\RestApp.csproj", "{6A60BA50-0E2F-4BF3-8D80-C8BB23BC43C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApp", "RestApp\RestApp.csproj", "{6A60BA50-0E2F-4BF3-8D80-C8BB23BC43C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Aspcorefeatures", "Aspcorefeatures", "{760D532E-08D5-4511-BB4C-43B93D808672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoRazorPages", "DemoRazorPages\DemoRazorPages.csproj", "{3245237E-4E17-4A6F-B8CF-ED067EC4289D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoRazorPages", "DemoRazorPages\DemoRazorPages.csproj", "{3245237E-4E17-4A6F-B8CF-ED067EC4289D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp", "MvcApp\MvcApp.csproj", "{66BF5DA4-B35A-4E39-A67F-C9C961D1616E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcApp", "MvcApp\MvcApp.csproj", "{66BF5DA4-B35A-4E39-A67F-C9C961D1616E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiApp", "ApiApp\ApiApp.csproj", "{D29D2274-9EBE-4FA9-A344-6F607245C3C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiApp", "ApiApp\ApiApp.csproj", "{D29D2274-9EBE-4FA9-A344-6F607245C3C3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -62,10 +60,6 @@ Global
 		{2DD03246-7C66-4658-9D28-454450793593}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DD03246-7C66-4658-9D28-454450793593}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DD03246-7C66-4658-9D28-454450793593}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D70FD99-D729-49A3-A52F-2CA2F5923538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D70FD99-D729-49A3-A52F-2CA2F5923538}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D70FD99-D729-49A3-A52F-2CA2F5923538}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D70FD99-D729-49A3-A52F-2CA2F5923538}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1385DAF2-BA90-4128-8C68-D2FCB4536561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1385DAF2-BA90-4128-8C68-D2FCB4536561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1385DAF2-BA90-4128-8C68-D2FCB4536561}.Release|Any CPU.ActiveCfg = Release|Any CPU
