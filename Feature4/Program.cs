@@ -7,5 +7,7 @@ Console.WriteLine("Type inrefence is not supported in c# 9");
 var helloWorld = () => "Hello Karuna";
 var getId = () => 400;
 
+var parse = (string s) => int.Parse(s);
+
 Console.WriteLine(helloWorld());
 Console.ReadKey();
