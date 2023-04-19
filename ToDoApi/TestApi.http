@@ -1,0 +1,32 @@
+﻿GET https://localhost:7039/api/todoitems
+###
+GET https://localhost:7039/api/todoitems/1
+
+###
+POST https://localhost:7039/api/todoitems
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"Learn .net features",
+    "IsComplete":false
+}
+###
+PUT https://localhost:7039/api/todoitems/1
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":"Learn .net features",
+    "IsComplete":true
+}
+
+###
+DELETE https://localhost:7039/api/todoitems/1
+Content-Type: application/json
+
+{
+    "id":1,
+    "name":".net 6 features",
+    "IsComplete":true
+}
