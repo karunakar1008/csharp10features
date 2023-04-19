@@ -1,5 +1,7 @@
-﻿namespace Feature2.Models;
-internal class Employee
+﻿namespace Feature2.Models
 {
-   
+    internal class Employee
+    {
+
+    }
 }
