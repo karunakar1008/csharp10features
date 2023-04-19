@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
+using System.Text.Json;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -7,8 +8,17 @@ namespace RestApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class EmployeesController : ControllerBase
+    public class EmployeesController : ControllerBase, IAsyncDisposable
     {
+        private Utf8JsonWriter? _jsonWriter;
+        private readonly ILogger<EmployeesController> _logger;
+
+        public EmployeesController(ILogger<EmployeesController> logger)
+        {
+            _logger = logger;
+            _jsonWriter = new Utf8JsonWriter(new MemoryStream());
+        }
+
         // GET: api/<EmployeesController>
         [HttpGet]
         public IEnumerable<string> Get()
@@ -46,6 +56,16 @@ namespace RestApp.Controllers
         public string Delete(int id)
         {
             return "This is the delete call and your id is :" + id;
+        }
+
+        public async ValueTask DisposeAsync()
+        {
+            if (_jsonWriter is not null)
+            {
+                await _jsonWriter.DisposeAsync();
+            }
+
+            _jsonWriter = null;
         }
     }
 }
