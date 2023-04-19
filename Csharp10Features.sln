@@ -60,6 +60,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Feature18", "Feature18\Feat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "chasrp10", "chasrp10", "{EA87A216-E40A-4AAA-A5A7-282C1BE80F71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApi", "ToDoApi\ToDoApi.csproj", "{C120DBAC-5B13-4961-A4BA-FB6E4C205FAB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -158,6 +160,10 @@ Global
 		{9312F8A9-7EF6-429E-9F23-0F7A3D7F908C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9312F8A9-7EF6-429E-9F23-0F7A3D7F908C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9312F8A9-7EF6-429E-9F23-0F7A3D7F908C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C120DBAC-5B13-4961-A4BA-FB6E4C205FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C120DBAC-5B13-4961-A4BA-FB6E4C205FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C120DBAC-5B13-4961-A4BA-FB6E4C205FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C120DBAC-5B13-4961-A4BA-FB6E4C205FAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
