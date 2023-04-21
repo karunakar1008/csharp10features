@@ -1,5 +1,5 @@
-using ToDoApi;
 using Microsoft.EntityFrameworkCore;
+using ToDoApi;
 
 var builder = WebApplication.CreateBuilder(args);
 
