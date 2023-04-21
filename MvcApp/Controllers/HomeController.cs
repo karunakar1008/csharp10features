@@ -22,7 +22,15 @@ namespace MvcApp.Controllers
         {
             return View();
         }
-
+        public ViewResult Contact()
+        {
+            return View();
+        }
+        //Home/GetEmployees
+        public JsonResult GetEmployees()
+        {
+            return Json(new List<string> { "Employee1","Employee2"});
+        }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
